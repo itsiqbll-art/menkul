@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur Iqbal - Menu Lezat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <i class="fas fa-utensils logo-icon"></i>
+            <h1>Dapur Iqbal</h1>
+            <p>Pengalaman Rasa yang Tak Terlupakan</p>
+        </div>
+    </header>
+
+    <div class="filter-buttons">
+        <button class="btn active" onclick="filterMenu('semua')">Semua</button>
+        <button class="btn" onclick="filterMenu('makanan')">Makanan</button>
+        <button class="btn" onclick="filterMenu('minuman')">Minuman</button>
+    </div>
+
+    <main class="menu-container">
+        <div class="menu-item makanan">
+            <div class="badge">Terlaris</div>
+            <img src="https://images.unsplash.com/photo-1512058560366-cd242d458690?w=400" alt="Nasi Goreng">
+            <div class="info">
+                <h3>Nasi Goreng Spesial</h3>
+                <p>Nasi goreng dengan telur mata sapi dan ayam suwir.</p>
+                <span class="harga">Rp 25.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item makanan">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400" alt="Salad">
+            <div class="info">
+                <h3>Salad Sayur Segar</h3>
+                <p>Kombinasi sayuran organik dengan dressing wijen sangrai.</p>
+                <span class="harga">Rp 30.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item makanan">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" alt="Pizza">
+            <div class="info">
+                <h3>Pizza Mozzarella</h3>
+                <p>Pizza tipis kering dengan keju mozzarella melimpah.</p>
+                <span class="harga">Rp 45.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item minuman">
+            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?w=400" alt="Es Teh">
+            <div class="info">
+                <h3>Es Teh Manis</h3>
+                <p>Teh melati segar dengan es batu kristal.</p>
+                <span class="harga">Rp 5.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item minuman">
+            <img src="https://images.unsplash.com/photo-1541167760496-162955ed8a9f?w=400" alt="Kopi">
+            <div class="info">
+                <h3>Kopi Susu Gula Aren</h3>
+                <p>Espresso premium dengan susu segar dan gula aren asli.</p>
+                <span class="harga">Rp 18.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item minuman">
+            <div class="badge">Baru</div>
+            <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=400" alt="Lemonade">
+            <div class="info">
+                <h3>Fresh Lemonade</h3>
+                <p>Perasan lemon asli yang memberikan kesegaran instan.</p>
+                <span class="harga">Rp 15.000</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
